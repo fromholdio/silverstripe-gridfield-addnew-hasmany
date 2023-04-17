@@ -1,0 +1,31 @@
+/**
+ * GridFieldAddExistingSearchButton
+ */
+
+.add-new-hasmany-search-dialog {
+  min-width: inherit !important;
+}
+
+.add-new-hasmany-search-dialog .add-new-hasmany-search-form .field {
+  border: none;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.add-new-hasmany-search-dialog .add-new-hasmany-search-form .field label {
+  padding: 4px 0;
+}
+
+.add-new-hasmany-search-dialog .add-new-hasmany-search-form .Actions {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.add-new-hasmany-search-dialog .list-group-item {
+  min-height: 32px;
+}
+
+.add-new-hasmany-search-dialog .btn-toolbar {
+  margin-top: 12px;
+}
