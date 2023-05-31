@@ -30,8 +30,10 @@
                     $.get(this.prop("href"))
                 );
                 dialog.data("grid", this.closest(".ss-gridfield"));
-                dialog.data("gridsToReload", $.parseJSON($(this).attr('data-reloads')));
-
+                var reloadAttr = $(this).attr('data-reloads');
+                if (typeof reloadAttr !== 'undefined' &&  reloadAttr !== null) {
+                    dialog.data("gridsToReload", $.parseJSON(reloadAttr));
+                }
                 return false;
             }
         });
