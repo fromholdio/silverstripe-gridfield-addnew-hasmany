@@ -37,7 +37,7 @@ class GridFieldAddNewHasManySearchButton implements GridField_HTMLProvider, Grid
         bool $doAllowDuplicate = false,
         $fragment = 'buttons-before-left',
         string $buttonClass = 'btn-outline-primary',
-        string $buttonName = null
+        ?string $buttonName = null
     ) {
         $this->setButtonClass($buttonClass);
         $this->setButtonName($buttonName);
