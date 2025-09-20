@@ -1,6 +1,6 @@
 # silverstripe-gridfield-addnew-hasmany
 
-Requirements: Silverstripe ^4 or ^5
+Requirements: Silverstripe ^6.x
 
 Module adding functionality to Silverstripe grid fields. Adds a new button which triggers a modal, displaying a searchable list of objects. 
 
