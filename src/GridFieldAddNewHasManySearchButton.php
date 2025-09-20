@@ -4,8 +4,8 @@ namespace Fromholdio\GridFieldAddNewHasMany;
 
 use SilverStripe\Forms\GridField\GridField_HTMLProvider;
 use SilverStripe\Forms\GridField\GridField_URLHandler;
-use SilverStripe\ORM\SS_List;
-use SilverStripe\View\ArrayData;
+use SilverStripe\Model\List\SS_List;
+use SilverStripe\Model\ArrayData;
 use SilverStripe\View\Requirements;
 
 class GridFieldAddNewHasManySearchButton implements GridField_HTMLProvider, GridField_URLHandler
